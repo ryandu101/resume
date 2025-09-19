@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan Du - Personal Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .section-title {
+            border-bottom: 2px solid #3b82f6; /* blue-500 */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto p-4 sm:p-6 md:p-8 max-w-4xl">
+        <!-- Header Section -->
+        <header class="bg-white shadow-md rounded-lg p-8 mb-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900">Ryan Du</h1>
+            <p class="text-xl text-blue-600 mt-2">Aspiring Software Developer</p>
+            <div class="mt-6 flex justify-center items-center flex-wrap gap-4 text-gray-600">
+                <a href="mailto:ryandu101@gmail.com" class="hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                    <i class="fas fa-envelope"></i> ryandu101@gmail.com
+                </a>
+                <a href="tel:+18032438300" class="hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                    <i class="fas fa-phone"></i> (803) 243-8300
+                </a>
+                <a href="https://github.com/ryandu101" target="_blank" rel="noopener noreferrer" class="hover:text-blue-600 transition duration-300 flex items-center gap-2">
+                    <i class="fab fa-github"></i> GitHub Profile
+                </a>
+            </div>
+        </header>
+
+        <main class="space-y-8">
+            <!-- Summary Section -->
+            <section class="bg-white shadow-md rounded-lg p-8">
+                <h2 class="text-2xl font-bold section-title flex items-center gap-3"><i class="fas fa-user-circle text-blue-500"></i> Professional Summary</h2>
+                <p class="text-lg">
+                    I dropped out of Computer Science from the University of South Carolina after my sophomore year. While I didn't complete my degree, I gained a solid foundation in programming and problem-solving skills. I'm passionate about coding and eager to apply my knowledge in real-world scenarios. I'm actively seeking opportunities to grow as a software developer and contribute to innovative projects.
+                </p>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="bg-white shadow-md rounded-lg p-8">
+                <h2 class="text-2xl font-bold section-title flex items-center gap-3"><i class="fas fa-cogs text-blue-500"></i> Skills</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-700">Technical Skills</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-center gap-3"><i class="fab fa-java text-red-500 w-5 text-center"></i> <strong>Java:</strong> Data Structures (Binary Search Trees, Heaps, Queues, Stacks, Graphs)</li>
+                            <li class="flex items-center gap-3"><i class="fab fa-html5 text-orange-500 w-5 text-center"></i> <strong>Web:</strong> Angular (HTML, CSS, TypeScript)</li>
+                             <li class="flex items-center gap-3"><i class="fas fa-code text-purple-500 w-5 text-center"></i> <strong>Visual Basic</strong></li>
+                            <li class="flex items-center gap-3"><i class="fas fa-desktop text-green-500 w-5 text-center"></i> <strong>Hardware:</strong> PC Building & Component Sourcing</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-3 text-gray-700">Professional Skills</h3>
+                        <ul class="space-y-2">
+                            <li class="flex items-center gap-3"><i class="fas fa-comments text-yellow-500 w-5 text-center"></i> Public Speaking</li>
+                            <li class="flex items-center gap-3"><i class="fas fa-users text-teal-500 w-5 text-center"></i> Team Leadership & Management</li>
+                            <li class="flex items-center gap-3"><i class="fas fa-route text-indigo-500 w-5 text-center"></i> Logistics & Route Management</li>
+                            <li class="flex items-center gap-3"><i class="fas fa-keyboard text-gray-500 w-5 text-center"></i> 110 WPM Typing Speed</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Projects Section -->
+            <section class="bg-white shadow-md rounded-lg p-8">
+                <h2 class="text-2xl font-bold section-title flex items-center gap-3"><i class="fas fa-project-diagram text-blue-500"></i> Personal Projects</h2>
+                <div class="mt-4">
+                    <h3 class="text-xl font-semibold">Gemsbok.club</h3>
+                    <p class="text-gray-600">Developed a web-based gambling mini-game for a social group, utilizing HTML, CSS, and JavaScript. The project involved creating front-end forms and logic for a user-friendly, interactive experience without real currency. The game itself was like CRASH where players would keep their "money" in until the "dungeon collapsed." This utilized WebSockets to update the game's real-time information.</p>
+                    <!-- You can add a link here when it's live -->
+                    <!-- <a href="#" class="text-blue-600 hover:underline">View Project &rarr;</a> -->
+                </div>
+            </section>
+
+            <!-- Experience Section -->
+            <section class="bg-white shadow-md rounded-lg p-8">
+                <h2 class="text-2xl font-bold section-title flex items-center gap-3"><i class="fas fa-briefcase text-blue-500"></i> Work Experience</h2>
+                <div class="space-y-6">
+                    <div class="border-l-4 border-blue-200 pl-4">
+                        <p class="font-semibold text-lg">Web Developer - SpringUp</p>
+                        <p class="text-sm text-gray-600">[June 2025] - Present</p>
+                        <p class="mt-1">Contributing to the development of web applications using Angular.</p>
+                    </div>
+                    <div class="border-l-4 border-gray-200 pl-4">
+                        <p class="font-semibold text-lg">Regional Manager - Tasty Crab House</p>
+                        <p class="text-sm text-gray-600">March 2024 - June 2024</p>
+                        <p class="mt-1">Oversaw operations and staff for multiple restaurant locations, focusing on efficiency and customer satisfaction.</p>
+                    </div>
+                    <div class="border-l-4 border-gray-200 pl-4">
+                        <p class="font-semibold text-lg">Rural Carrier - United States Postal Service</p>
+                        <p class="text-sm text-gray-600">January 2023 - May 2023</p>
+                        <p class="mt-1">Managed and executed daily mail delivery routes, ensuring timely and accurate service for rural communities.</p>
+                    </div>
+                    <div class="border-l-4 border-gray-200 pl-4">
+                        <p class="font-semibold text-lg">General Relations Manager - GoGoMenu</p>
+                        <p class="text-sm text-gray-600">October 2018 – November 2019</p>
+                         <p class="mt-1">Served as a key point of contact for clients, managing relationships and ensuring service alignment with customer needs.</p>
+                    </div>
+                    <!-- Add other jobs if you wish -->
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section class="bg-white shadow-md rounded-lg p-8">
+                <h2 class="text-2xl font-bold section-title flex items-center gap-3"><i class="fas fa-graduation-cap text-blue-500"></i> Education</h2>
+                <div>
+                    <p class="font-semibold text-lg">University of South Carolina, Columbia</p>
+                    <p class="text-gray-600">Computer Science Coursework (2020-2021)</p>
+                </div>
+                 <div class="mt-4">
+                    <p class="font-semibold text-lg">Riverside High School</p>
+                    <p class="text-gray-600">Graduated 2020</p>
+                </div>
+            </section>
+            
+             <!-- Certifications & Clearances -->
+            <section class="bg-white shadow-md rounded-lg p-8">
+                <h2 class="text-2xl font-bold section-title flex items-center gap-3"><i class="fas fa-shield-alt text-blue-500"></i> Clearances</h2>
+                <div>
+                    <p class="font-semibold text-lg">SSA Suitability Certified</p>
+                    <p class="text-gray-600">Award Number: SS00-20-E3232</p>
+                    <p class="text-gray-600">Investigation Type: Tier 1</p>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+</body>
+</html>
